@@ -1,0 +1,6 @@
+This product includes software developed by the following projects:
+
+- Spring Boot (Apache License 2.0) - https://spring.io/projects/spring-boot
+- FasterXML (Apache License 2.0) - http://fasterxml.com
+- MapStruct (Apache License 2.0) - https://mapstruct.org
+- Lombok (MIT License) - https://projectlombok.org
