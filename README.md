@@ -13,8 +13,8 @@ Sitemap exposure starter for reactive [Spring](https://spring.io) apps.
 public class ExampleSiteMapLoader implements SiteMapLoader {
 
     @Override
-    public List<SiteMapEntry> load() {
-        return List.of(
+    public Flux<SiteMapEntry> load() {
+        return Flux.just(
                 new SiteMapEntry("https://test.website/test_1", LocalDateTime.now()),
                 new SiteMapEntry("https://test.website/test_2", LocalDateTime.now()),
                 new SiteMapEntry("https://test.website/test_3", LocalDateTime.now())
